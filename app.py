@@ -1,3 +1,27 @@
+"""
+CENG465 Machine Learning Project - Classification Toolkit
+
+Authors:
+    - Melek Arslan (220446018)
+    - Alp Doruk Şengün (230444401)
+    - Mehmet Anıl Ülkü (220441001)
+    - Yusuf Özoğul (230446401)
+    - Saip Deniz İnal (210444087)
+
+How to Run:
+    1. Install dependencies: pip install -r requirements.txt
+    2. Run: python -m streamlit run app.py --server.headless true
+    3. Open browser: http://localhost:8501
+    4. Upload CSV, configure settings, train model
+
+Features:
+    - Perceptron classifier
+    - Multilayer Perceptron with custom Backpropagation implementation
+    - Decision Tree classifier
+    - Preprocessing: Normalization (StandardScaler/MinMaxScaler), One-Hot Encoding
+    - Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np
